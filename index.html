@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopora</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site_header">
+        <h1 class="site_name">Shopora</h1>
+        <p class="site_tagline">Discover products you'll love</p>
+        <input id="search" type="text" placeholder="Search products...">
+    </header>
+
+    <nav id="categories">
+        <button data-category="all">All</button>
+        <button data-category="men's clothing">men's clothing</button>
+        <button data-category="jewelery">jewelery</button>
+        <button data-category="electronics">electronics</button>
+        <button data-category="women's clothing">women's clothing</button>
+    </nav>
+
+    <div class="input_area">
+      <input type="number" placeholder="Id" id="id" />
+      <input type="text" placeholder="Title" id="title" />
+      <input type="text" placeholder="Description" id="description" />
+      <input type="text" placeholder="Img" id="img" />
+      <input type="text" placeholder="Category" id="category" />
+      <input type="number" placeholder="Price" id="price" />
+      <button id="add_product_btn">Submit</button>
+    </div>
+
+    <div id="show_contaniner"></div>
+</body>
+<script src="script.js"></script>
+</html>
